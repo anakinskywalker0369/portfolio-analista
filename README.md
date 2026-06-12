@@ -1,24 +1,23 @@
-# portfolio-analista
-# Automatizador Inteligente de Reportes de Ventas
+# Sales Data Automation Tool
 
-Este proyecto es una herramienta diseñada para optimizar el análisis de datos de ventas, eliminando la carga operativa de limpiar y procesar archivos manualmente.
+This project is a tool designed to streamline sales data analysis, eliminating the operational burden of manually cleaning and processing files.
 
-## 🛠 Problema resuelto
-En entornos comerciales, los reportes suelen llegar con formatos inconsistentes, errores de escritura y datos faltantes. Procesar esta información en Excel manualmente consume horas de trabajo y es altamente propenso al error humano.
+## 🛠 Problem
+In business environments, reports often arrive with inconsistent formats, typos, and missing data. Processing this information manually in Excel is time-consuming and prone to human error.
 
-## 💡 Solución
-He desarrollado un script en **Python** utilizando **Pandas** que:
-1. **Limpia automáticamente:** Detecta y corrige errores de formato en precios y fechas.
-2. **Gestiona valores nulos:** Elimina registros corruptos para asegurar la integridad del análisis.
-3. **Genera resultados:** Crea un resumen estadístico y visualizaciones automáticas en segundos.
+## 💡 Solution
+I developed a **Python** script using **Pandas** that:
+1. **Automates Cleaning:** Detects and fixes format errors in prices and dates.
+2. **Handles Missing Data:** Automatically filters out corrupt records to ensure analysis integrity.
+3. **Generates Results:** Creates statistical summaries and visualizations in seconds.
 
-## 🚀 Tecnologías utilizadas
+## 🚀 Technologies Used
 * **Python**
-* **Pandas** (para manipulación de datos)
-* **Matplotlib** (para visualización de gráficos)
+* **Pandas** (for data manipulation)
+* **Matplotlib** (for data visualization)
 
-## 📋 Cómo utilizarlo
-1. Asegúrate de tener Python instalado y la librería pandas.
-2. Ejecuta el script: `python CodigoAnalisis.py`.
-3. Cuando el programa lo solicite, ingresa el nombre de tu archivo CSV.
-4. El programa generará automáticamente un archivo `resumen_analisis.txt` y mostrará un gráfico de barras con el promedio de ventas.
+## 📋 How to use
+1. Ensure you have Python and pandas installed.
+2. Run the script: `python CodigoAnalisis.py`.
+3. Enter the name of your CSV file when prompted.
+4. The program will automatically generate a `resumen_analisis.txt` file and display a bar chart with the average sales.
